@@ -120,12 +120,12 @@ body {
 /*Blue*/
 
 .blue {
-    background: #1171de;
+    background: #4e18dd;
 }
 .blue:hover,
 .blue:active,
 .blue:focus {
-    background: #0e62c0;
+    background: #4e18dd;
     color: #fff;
 }
 /*Blue*/
