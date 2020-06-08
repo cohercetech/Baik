@@ -57,6 +57,7 @@ body {
     color: #fff;
     font-size: 2em;
 }
+
 .content .form-group {
     width: 250px;
 }
@@ -77,6 +78,10 @@ body {
     margin-left: 5px;
     border: 0;
     color: #fff;
+}
+
+.orange {
+    color: #f17105;
 }
 /*Green*/
 
