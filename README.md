@@ -1,9 +1,9 @@
-# Baik - Responsive ComingSoon HTML Template
-Baik is a responsive, modern and clean under construction/coming soon template base on Bootstrap 3. This template is being packed with a countdown timer, ajax subscription form, social icons and about page.
+# FortunifAI - Responsive ComingSoon HTML Template
+FortunifAI is a responsive, modern and clean under construction/coming soon template base on Bootstrap 3. This template is being packed with a countdown timer, ajax subscription form, social icons and about page.
 
-Baik comes in 4 versions: image background, Image Background + Countdown, Background Video and Background Image Slider.
+FortunifAI comes in 4 versions: image background, Image Background + Countdown, Background Video and Background Image Slider.
 
-Baik have 5 color themes, green, red, yellow, blue and pink.
+FortunifAI have 5 color themes, green, red, yellow, blue and pink.
 
 ## Features
 - Built on Bootstrap 3.2.0
@@ -41,7 +41,7 @@ Enter the email where you want to receive the notification when someone subscrib
 
 #### 3. Images, Background images slide and Video Background
 
-In Baik pages you can have a static image, background images slide or a video as background.
+In FortunifAI pages you can have a static image, background images slide or a video as background.
 
 #### A. For static image you have to change the url of this line.
 
