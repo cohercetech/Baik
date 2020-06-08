@@ -5,14 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FortunifAI - Coming Soon Templates</title>
+     <title>FortunifAI - Coming Soon Templates</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Styles-->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,34 +33,37 @@
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
-    <div class="main" style="background-image: url('images/bg.jpg')">
+<!--   background image slider-->
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span>
+        </li>
+        <li><span>Image 02</span>
+        </li>
+        <li><span>Image 03</span>
+        </li>
+        <li><span>Image 04</span>
+        </li>
+        <li><span>Image 05</span>
+        </li>
+        <li><span>Image 06</span>
+        </li>
+    </ul>
+    <div class="main">
         <div class="cover black" data-color="black"></div>
         <div class="content">
             <div class="container">
                 <div class="top">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="wow swing">FortunifAI</h1>
-                            <h2>Start reaching your goals with help of the only personlAIsed Career Builder in the world. <br>Sign up for upcoming announcements!</h2>
+                            <img src="Fortunifai.png" alt="FortunifAI Logo">
+                            <h2>Start reaching your goals with help of the only personalAIsed career builder in the world. </h2>
                         </div>
                     </div>
                     <br>
+                        <h1 class="wow swing">You can start building your fortune in...</h1>
+                        <div id="getting-started"></div>
                     <br>
-                    <!----Subscription----->
-                    <div class="row">
-                        <div class="col-md-4 col-md-offset-4 subscribe">
-                            <form class="form-inline" action="sendmail.php" method="post">
-                                <div class="form-group">
-                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                    <input type="text" name="email" class="form-control email" placeholder="Your email here...">
-                                </div>
-                                <button type="submit" class="btn btn-notif green">Notify Me</button>
-                            </form>
-                            <div class="success-message"></div>
-                            <div class="error-message"></div>
-                        </div>
-                    </div>
-                    <!----Social Media----->
+                    <!----Social Media---->
                     <div class="row socialmedia">
                         <div class="col-md-12">
                             <ul class="wow">
@@ -73,9 +75,6 @@
                                 </li>
                                 <li>
                                     <a href="#"><i class="fa fa-google-plus-square"></i>&nbsp;&nbsp;Google</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-weibo"></i>&nbsp;&nbsp;Weibo</a>
                                 </li>
                             </ul>
                         </div>
@@ -134,6 +133,17 @@
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript">
+        $('#getting-started').countdown('2020/10/10').on('update.countdown', function (event) {
+            var $this = $(this).html(event.strftime('' 
+            + '<span>%-w</span> week%!w ' 
+            + '<span>%-d</span> day%!d ' 
+            + '<span>%H</span> hr ' 
+            + '<span>%M</span> min ' 
+            + '<span>%S</span> sec'));
+        });
     </script>
     <!-- Preloader -->
     <script type="text/javascript">
