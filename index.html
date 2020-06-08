@@ -68,18 +68,20 @@
                         <div id="getting-started"></div>
                     <br>
                      <!----Subscription---->
+                     <div id="cantact">
                      <h2>Sign up for upcoming announcements! </h2>
                     <div class="row">
                         <div class="col-md-4 col-md-offset-4 subscribe">
-                            <form class="form-inline" name="contact" method="POST" action="thank-you" data-netlify-recaptcha="true" data-netlify="true">
+                            <form class="form-inline" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                                  <div data-netlify-recaptcha="true"></div>
                                 <div class="form-group">
                                     <label class="sr-only" for="exampleInputEmail2">Email address</label>
                                     <input type="text" name="email" class="form-control email" placeholder="Your email here...">
                                 </div>
-                               <button type="submit" class="btn btn-notif green">Notify Me</button>
+                               <button type="submit" onclick="sucessmsg()" class="btn btn-notif green">Notify Me</button>
                             </form>
                         </div>
+                    </div>
                     </div>
                     <!----Social Media---->
                     <div class="row socialmedia">
@@ -132,7 +134,7 @@
                     <div class="col-md-4">
                         <i class="fa fa-map-marker"></i>
                         <p class="title">Address</p>
-                        <p>Fontenay-sous-Bois, 94120</p>
+                        <p>Fontenay-sous-Bois, Paris, France, 94120</p>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-md-12 copyright">
@@ -143,6 +145,13 @@
         </div>
     </div>
 
+    <script>
+        function sucessmsg() {
+        var elem = document.getElementById('cantact');
+        elem.innerHTML = '<div id="two"><h2>Thank you for Subscribing. </h2></div>';
+        ;
+        }
+</script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
